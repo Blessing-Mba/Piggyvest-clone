@@ -391,7 +391,7 @@ feedback h3{
 .story-avatar{
   z-index: 0;
     overflow: hidden;
-    width: 40px;
+    width: 8%;
     height: 40px;
     border-radius: 50%;
     background-color: #fff;
@@ -709,4 +709,6 @@ feedback h3{
   color: #083e9e;
   font-size: 42px;
   font-family: U8,sans-serif;
+  font-weight: 700;
+  line-height: 53px;
 }
