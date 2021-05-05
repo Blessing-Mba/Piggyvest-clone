@@ -1,0 +1,458 @@
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 840px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    body{
+      overflow-x: hidden;
+      padding: 0;
+      margin: 0;
+      min-width: 100%;
+    }
+    .mt-5{
+      padding: 0;
+    }
+   .menu-bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0.5rem;
+      width: 100%;
+    }
+    .menu-btn{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      transition: all 0.5s ease-out;
+      border: 3px solid #FFFFFF;
+    }
+    #bar{
+      font-size: 2.2rem;
+      color: #093E9E;
+      font-weight: 900;
+    }
+    nav.navigation{
+      display: none;
+    }
+    .mobile-menu{
+      display: none;
+    }
+    nav.mobile-nav{
+      display: block;
+    }
+    .mobile-menu ul{
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .mobile-menu ul li{
+      padding-top: 0.5rem;
+      height: 3rem;
+    }
+    .open{
+      display: block;
+    }
+    .create-account{
+      margin: 0 auto !important;
+      width: 100%;
+    }
+    .landing-container{
+      width: 100%;
+       padding: 5px 5px;
+    }
+    .landing-container-card{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      background-size: cover;
+      width: 100%;
+      text-align: center;
+      padding: 2rem;
+    }
+    .landing-container-card h2{
+      font-size: 21px;
+      line-height: 2.2rem;
+    }
+    .landing-container-card p{
+      width: 100%;
+      text-align: center;
+      letter-spacing: 0.5px;
+      font-size: 16px;
+    }
+    .landing-container-card h5{
+      width: 100%;
+      font-size: 0.625rem;
+      line-height: 1rem;
+    }
+    .landing-container-text{
+      padding: 0;
+    }
+    .landing-container-text p{
+      width: 100%;
+    }
+    .landing-container-text h5{
+      width: 100%;
+    }
+    .create-free-account{
+    width: 188px;
+    padding: 15px 10px;
+    margin: 0 auto;
+    height: 49px;
+    margin-top: 1rem;
+    }
+    .google-play-badge{
+     height: 45%;
+     width: 45%;
+    }
+    .iosbadge-101-image{
+     height: 45%;
+     width: 45%;
+    }
+    .landing-container-img{
+      display: none;
+    }
+    .breakers{
+      display: none;
+    }
+    .security{
+      margin-top: 1rem;
+    }
+    .security-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+    }
+    .sec-text{
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      padding-top: 3rem;
+    }
+    .security-text{
+      width: 100%;
+      line-height: 20px;
+      text-align: center;
+      font-family: Karla,sans-serif;
+      font-size: 16px;
+      color: #1a202c;
+      padding: 1rem;
+    }
+    .security-list{
+      margin-top: 1rem;
+    }
+    .savings-section{
+      height: 1300px;
+    }
+    .savings-container{
+      padding: 0.5rem;
+    }
+    .savings-col{
+      display: flex;
+      flex-direction: column;
+      margin-top: 7rem;
+    }
+    .col-img{
+      align-items: center;
+    }
+  .savings-img{
+    display: none;
+  }
+  .savings-text{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .first-img{
+    max-width: 100%;
+    vertical-align: middle;
+    padding-left: 7rem;
+  }
+  .five{
+    margin-top: 1rem;
+    font-size: 21px;
+  }
+  .savings-box{
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .savings-list{
+    padding: 0.3rem;
+    margin-top: 1rem;
+  }
+  .large-text{
+    font-family: U8,sans-serif;
+    color: #1a202c;
+    font-size: 14px;
+  }
+  .font-body{
+    color: #4a5568;
+    text-align: center;
+  }
+  .box-img, .box-img2, .box-img3, .box-img4, .box-img5{
+    justify-content: center;
+  }
+  .s-img{
+    margin: 0 auto;
+  }
+  .img-text{
+    font-size: 0.75rem;
+  }
+  .access-investment{
+    height: 700px;
+  }
+  .access-img-box{
+    display: none;
+  }
+  .access-text-box{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 12rem;
+  }
+  .access-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .a-text h2{
+    font-size: 21px;
+    width: 100%;
+    text-align: center;
+    font-family: U8,sans-serif;
+  }
+  .grow{
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -1rem;
+  }
+  .fancy-text {
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    padding: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .saver img{
+    border-radius: 10px 10px 0 0;
+  }
+  .saver-info{
+    border-radius: 0 0 10px 0;
+    padding: 0.5rem;
+    font-family: Karla,sans-serif;
+    font-size: 16px;
+  }
+  .saver-title{
+    padding: 0.5rem;
+    font-size: 18px;
+    font-family: U8,sans-serif;
+  }
+  .testimony-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonies{
+  height: 1550px;
+  background-color: #093E9E;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.testimonies h4{
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.t-h2{
+  font-size: 1.2rem;
+  padding: 1rem 0 1rem 0;
+}
+.saver{
+  width: 100%;
+  padding: 0;
+}
+.feedback{
+  width: 100%;
+  padding-left: 0.1rem;
+  padding-right: 0;
+  margin-top: 2rem;
+}
+.feedback h3{
+  font-size: 12px;
+  color: #FFFFFF;
+  line-height: 14px;
+  font-family: U8,sans-serif;
+}
+.story-card{
+  width: 100%;
+  height: 170px;
+  padding: 0.5rem;
+}
+.story-avatar{
+  width: 80px;
+  z-index: 0;
+  margin: 0;
+}
+.story-text{
+  margin-left: 1rem;
+}
+.story-body h5{
+  font-size: 12px;
+  font-family: Karla,sans-serif;
+}
+.time{
+  font-size: 12px;
+  font-family: Karla,sans-serif;
+}
+.customer-section{
+  padding: 0;
+}
+.customer-container{
+  padding: 0;
+}
+.text-caption{
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  text-align: center;
+  margin-top: 12rem;
+}
+.text-body{
+  text-align: center;
+}
+.picture-grid{
+  display: none;
+}
+.text-box{
+  margin: 0 auto;
+  width: 20rem;
+  text-align: center;
+}
+.create-free-account2{
+  margin-left: 3rem;
+  margin-top: 3rem;
+ }
+ .text-img{
+   margin-top: -1rem;
+ }
+ .first-img{
+   margin-right: 6rem;
+   margin-left: -4.5rem;
+ }
+ .second-img{
+   margin-left: 1rem;
+ }
+  .feature{
+    display: none;
+  }
+  .Feat{
+    height: 350px;
+    background-color: #f5f5f5;
+    padding-top: 2rem;
+  }
+  .f-text{
+    font-size: 12px;
+    font-family: U8,sans-serif;
+    font-weight: 700;
+    color: #000000;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+  .f-box{
+    width: 100%;
+    display: flex;
+     flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    padding-top: 4rem;
+  }
+  .s-box{
+    width: 50%;
+    padding: 2rem;
+  }
+  .s-box img{
+    height: auto;
+    width: 100%;
+  }
+ .footer-container{
+   position: relative;
+ }
+ .footer-box{
+   width: 100%;
+   display: flex;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   overflow-x: auto;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: space-between;
+ }
+ .product{
+   background-color: rgba(137,172,234,.05);
+   width: 100%;
+   padding: 1rem;
+   min-width: 8rem;
+   margin-right: 0.5rem;
+   border-radius: 0.5rem;
+ }
+  .company{
+    background-color: rgba(137,172,234,.05);
+    width: 100%;
+    padding: 1rem;
+    min-width: 8rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .legal{
+    background-color: rgba(137,172,234,.05);
+    width: 100%;
+    padding: 1rem;
+    min-width: 12rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .piggyvest{
+    background-color: rgba(137,172,234,.05);
+    width: 100%;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .product-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .company-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .legal-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .piggyvest-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .trademark{
+    text-align: left;
+    width: 100%;
+    height: 180px;
+  }
+  .trademark-text{
+    padding: 1rem;
+    width: 100%;
+  }
+  .trademark-number{
+    padding: 1rem;
+  }
+} 
+
