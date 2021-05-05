@@ -279,9 +279,6 @@
   width: 100%;
   padding: 0;
 }
-.saver img{
-  object-fit: contain;
-}
 .feedback{
   width: 100%;
   padding-left: 0.1rem;

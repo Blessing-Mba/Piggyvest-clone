@@ -429,6 +429,9 @@ feedback h3{
   font-family: U8,sans-serif;
   padding-left: 1rem;
 }
+.saver img{
+  object-fit: cover;
+}
 .time{
   margin-top: 1.5rem;
   padding-left: 1rem;
